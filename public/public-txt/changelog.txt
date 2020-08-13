@@ -1,0 +1,115 @@
+//
+
+4/10/2020:
+
+-Recovered from DDoS attacks
+
+//
+
+4/12/2020:
+
+-Moved Forum to a local area on the sites, so it is no longer external.
+
+//
+
+4/13/2020:
+
+-Added Acceptable Use Policy.
+-Removed the rest of the non-legally-compliant content from websites.
+
+//
+
+4/16/2020:
+
+-PHP-Proxy returns.
+-Font issue fixed; no more blank fullscreen button.
+-Index text edited a slight bit.
+-Major tweaks to site's responsiveness, to improve mobile compatibility.
+-Numberous design element tweaks.
+
+//
+
+4/22/2020:
+
+-NodeCookie is back.
+-Font issues finally completely fixed.
+-Some scripts have been optimized.
+-Surf Freely page cleaned up.
+
+//
+
+4/27/2020:
+
+-Server upgrades have been done by our webhost, nodeclusters.com. The sites should be far faster now!
+-Fixed fullscreen icon.
+-Fixed some spacing issues.
+-Tweaked mobile responsiveness a bit.
+
+//
+
+4/29/2020:
+
+-Privacy Policy amendments for COPPA.
+-linked to privacy policy in proxy selector.
+
+//
+
+5/07/2020:
+
+-Cleaned up the site
+-Tweaked some stuff for faster loading
+-Removed broken movie section
+-Tweaked PHP-Proxy
+
+//
+
+5/19/2020:
+
+-Load balancing has been worked on by Divide; PyDodge is blazing fast now.
+-Server security improved.
+
+//
+
+5/20/2020:
+
+-Node has been upgraded and is now far faster than before.
+
+//
+
+5/23/2020:
+
+-Removed obfuscation.
+-Cleaned up more site files.
+
+//
+
+5/25/2020:
+
+-Removed Google Analytics
+-Edited Privacy Policy
+
+//
+
+6/09/2020:
+
+-Added PowerMouse
+
+//
+
+6/21/2020:
+
+-Discord invite re-added and fixed.
+-Description for PowerMouse added.
+
+//
+
+7/05/2020:
+
+-Made it harder for web filters to detect our sites as proxy/anti-censorship websites
+-Due to advancements in PowerMouse, TitaniumNetwork's custom in-house anti-censorship script, NodeUnblocker is no longer necessary to support. Removal will allow for the existing node-running servers to be allocated to more important tasks.
+
+8/12/2020:
+
+-PHP Proxy Removed
+-Local Node Unblocker server Added
+-Minor fixes

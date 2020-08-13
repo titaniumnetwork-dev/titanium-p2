@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Titanium Network</title>
+  <link rel="icon" href="./img/logo.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="TitaniumNetwork creates the highest quality free open-source anti-censorship services. We also have an extensive arcade and are community-driven.">
+  <meta name="author" content="Titanium Network">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/stylesheet.min.css">
+  <link href="./font/fontawesome/css/all.css" rel="stylesheet">
+  <link href="./img/logo.png" rel="icon" type="image/x-icon" />
+
+</head>
+  <body>
+    <header class="header container">
+      <a href="" class="logo">TitaniumNetwork</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./s2.html">G<span><h1 style="display:none">...</h1></span><span style='color: white'>ame</span>s</a></li>
+        <li><a href="./about.html">About Us</a></li>
+      </ul>
+    </header>
+        <div class="container">
+          <div class="c-box mainbodys1">
+        <center>
+          <h1>TitaniumNetwork | Surf Freely</h1>
+          <h2>Browse with Freedom.</h2>
+          <h2>Type in the website you wish to unbl<span><h1 style="display:none">...</h1></span><span style='color: white'>oc</span>k and press a button, to get going.</h2>
+        </center>
+        <center>
+              <!--<form action="" method="get" id="web-search-box" style="transform:scale(1.1)">-->
+              <form action="./geographic/index.php" id="web-search-box" method="post" style="transform:scale(1.1)">
+							<p>
+                <input type="text" placeholder="Enter URL" style="border:none;border-radius: 5px;padding:10px;" id="url" autocomplete="false" name="url" />&nbsp;
+                <input type="button" id="node"  class="selbuttons" value="NU" />
+                <script>
+                  function $(id) {return document.getElementById(id);}
+                  var url = window.location.hostname;
+                    var domain = url.replace('www.','').split(/[/?#]/)[0];
+                  //Node
+                  document.getElementById('node').onclick = function viashit() {
+                    var url = $('url').value;
+		                  window.location.href = "https://" + domain + "/edu/" + url;
+                    return false;};
+                  window.onload = function() {$('url').focus();}
+                  //these are the shortcut buttons
+                  function invidiokey(){document.getElementById("url").value = "invidio.us";}
+                  function googlekey(){document.getElementById("url").value = "google.com";}
+                  function startpagekey(){document.getElementById("url").value = "startpage.com";}
+                  function andkonkey(){document.getElementById("url").value = "andkon.com";}
+                  function youtubekey(){document.getElementById("url").value = "youtube.com";}
+                  function quack(){document.getElementById("url").value = "duckduckgo.com";}
+                  function surviv(){document.getElementById("url").value = "surviv.io";}
+                  function mope(){document.getElementById("url").value = "mope.io";}
+                  function defly(){document.getElementById("url").value = "defly.io";}
+                </script>
+							</p>
+						</form>
+          </center>
+	  		<center>
+          <h3>Info:</h3>
+            <h4>You must agree to the AUP, Terms of Service, and Privacy Policy documents before using these services. (visible in the page footer)</h4>
+            <!--<h4>-PHP Pr<span><h1 style="display:none">...</h1></span><span style='color: white'>ox</span>y (PHP): Local pr<span><h1 style="display:none">...</h1></span><span style='color: white'>ox</span>y script that is capable of proxifying static websites.</h4>-->
+            <h4>-NodeUnbl<span><h1 style="display:none">...</h1></span><span style='color: white'>oc</span>ker (NU): Good pro<span><h1 style="display:none">...</h1></span><span style='color: white'>ox</span>y which is capable of unbl<span><h1 style="display:none">...</h1></span><span style='color: white'>oc</span>king most static websites, and some IO games.</h4>
+            <h6>TitaniumNetwork is supported by only one ad. If you do not wish to view it, use uBlock Origin. (mirror webmaster is free to remove if they want)</h6>
+            <iframe data-aa="1390211" src="//ad.a-ads.com/1390211?size=728x90&background_color=d18d2e&title_color=000000" scrolling="no" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+            <h3>Server Status:</h3>
+            <h4>NU: (<span style='color: green'>Running...</span>)</h4>
+                        <div class="d-box">
+              <h1>Official Support List:</h1>
+              <h3><a href="#" onclick="invidiokey()">Invidious</a> (Video Streaming)</h3>
+              <h3><a href="#" onclick="googlekey()">Google</a> (Search Engine)</h3>
+              <h3><a href="#" onclick="startpagekey()">Startpage</a> (Search Engine)</h3>
+              <h3><a href="#" onclick="andkonkey()">Andkon</a> (Gaming)</h3>
+              <h3><a href="#" onclick="defly()">Defly</a> (Gaming)</h3>
+              <h3><a href="#" onclick="surviv()">Surviv</a> (Gaming)</h3>
+              <h3><a href="#" onclick="mope()">Mope</a> (Gaming)</h3>
+              <h3><a href="#" onclick="youtubekey()">YouTube</a> (Video Streaming)</h3>
+            </div>
+        </center>
+      </div>
+      <footer>TitaniumNetwork Unofficial Mirror -<a href="tos.html">Terms of Service - </a><a href="pp.html">Privacy Policy - </a><a href="aup.html">AUP - </a><a href="contact.html">Contact Us.</a></footer>
+
+    </div>
+
+        </body>
+</html>

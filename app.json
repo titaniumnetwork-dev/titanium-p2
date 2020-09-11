@@ -1,5 +1,7 @@
 {
-  "name": "Node Unblocker",
-  "description": "Evande internet censorship",
-  "repository": "https://github.com/nfriedly/nodeunblocker.com"
+  "name": "Titanium-P2 Alloy",
+  "description": "The iconic Phoenix 2 proxy site included with a local Alloy Proxy instance.",
+  "repository": "https://github.com/titaniumnetwork-dev/alloyproxy/",
+  "logo": "https://avatars1.githubusercontent.com/u/47227492?s=200&v=4",
+  "keywords": ["node", "proxy", "unblocker"]
 }
